@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "Active Internet connections (only servers)"
+ss -ltunp
+
+echo
+
+echo "Active UNIX domain sockets (only servers)"
+ss -lxp
