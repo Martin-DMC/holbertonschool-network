@@ -2,9 +2,9 @@
 # This script displays listening TCP, UDP, and UNIX sockets, along with their associated PID and program name.
 
 echo "Active Internet connections (only servers)"
-ss -ltunp
+netstat -ltunp
 
 echo
 
 echo "Active UNIX domain sockets (only servers)"
-ss -lxp
+netstat -lxp
