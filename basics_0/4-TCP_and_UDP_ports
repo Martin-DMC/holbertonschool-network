@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script displays listening TCP, UDP, and UNIX sockets, along with their associated PID and program name.
 
 echo "Active Internet connections (only servers)"
 ss -ltunp
